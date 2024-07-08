@@ -1,0 +1,64 @@
+.teoryWrapper{
+    width: 100%;
+    margin: 0 auto; 
+    min-height: fit-content;
+    box-sizing: border-box;
+}
+.title__conteiner{ 
+    min-height: 20px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.title__conteiner > .title{ 
+    display: block;
+    padding: 10px;
+    font-size: 25px;
+}
+.teory__content{ 
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.teory_info{
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    width: 95%;
+}
+.teory_info div{ 
+    padding-bottom: 10px;
+    line-height: 25px;
+    width: 100%;
+    height: fit-content;
+}
+.teory_demo{
+    padding: 10px;
+    min-height: fit-content;
+    background-color: #494d42;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.teory_demo>span{ 
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+.codeConteiner{ 
+    background-color: #333;
+    width: fit-content;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.code_demo{ 
+    width: fit-content;
+    background-color: white;
+    display: inline-block;
+    padding: 2px;
+}
+.code_demo>span{ 
+    color: black;
+}

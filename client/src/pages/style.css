@@ -1,0 +1,7 @@
+.tabActive{
+    border-top: 1px solid rgb(107, 107, 255);
+    background-color: #24292e;
+}
+.itemDisable{ 
+    display: none;
+}

@@ -1,0 +1,3 @@
+document.getElementById('learn-more').addEventListener('click', function() {
+    alert('Проходите задания и постепенно узнавайте новое языке HTML ');
+});

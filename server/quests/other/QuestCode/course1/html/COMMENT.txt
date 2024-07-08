@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Комментарии в HTML</title>
+</head>
+<body>
+    <h1>Комментарии</h1>
+    <p>Этот текст отображается на странице.</p>
+</body>
+</html>

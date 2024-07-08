@@ -1,0 +1,11 @@
+.nextQuest{ 
+    position: absolute;
+    z-index: 99999;
+    left: 76%;
+}
+.nextLink{ 
+    display: block;
+    background-color: lime;
+    height: 60px;
+    width: 60px;
+}

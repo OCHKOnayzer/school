@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML списки</h1>
+        <p>Это мой пробный сайт про списки в HTML</p>
+        <a href="#">This is a link</a>
+       
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML списки</h1>
+        <p>Это мой сайт про списки в HTML</p>
+        <ul>
+            <li>Первый элемент</li>
+        </ul>
+      <ol>
+         <li>Первый пункт</li>
+      </ol>
+    </div>
+</body>
+</html>

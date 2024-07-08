@@ -1,0 +1,41 @@
+.select__conteiner{
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: column;
+    margin: 0;
+}
+.select__conteiner>div{
+    padding: 0;
+    margin: 1em;
+}
+a{
+    text-decoration: none;
+    padding: 3px;
+}
+.link{ 
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.433);
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    transition: 600ms;
+}
+.nonActive{ 
+    color: rgba(255, 255, 255, 0.575);
+}
+.active{ 
+    color: white;
+}
+.selectBock{
+    background-color: hsla(240, 30%, 50%, 0.712);
+    border-color: hsla(240, 30%, 50%, 0.712);
+    transition: 600ms;
+}
+.link:hover{ 
+    background-color: hsla(240, 30%, 50%, 0.367);
+    border-color: hsla(240, 30%, 50%, 0.367);
+}
+button{
+    user-select: none;
+    cursor: pointer;
+}

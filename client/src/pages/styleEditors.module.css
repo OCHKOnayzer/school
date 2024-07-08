@@ -1,0 +1,436 @@
+.conteiner__codeRedactor{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+}
+.EditorFooter{ 
+    width: 100%;
+    height: calc(5% - 1px);
+    margin-bottom: 1px;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    border-top:1px solid rgb(49, 49, 49);
+}
+.EditorFooter>.conteiner{ 
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.helpConteiner{ 
+    display: flex;
+    align-items: center;
+    width: 120px;
+    font-size: 10px;
+    color: white;
+    height: 100%;
+    border-right: 1px solid rgb(49, 49, 49);
+}
+.EditorFooter__controller{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+.controlled{ 
+    width: 50%;
+    border-right: 1px solid rgb(49, 49, 49);
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    user-select: none;
+}
+.selected:hover{ 
+    cursor: pointer;
+    background-color: #54545079
+}
+.edtrFoot{ 
+    display: grid;
+    place-items: center;
+    height:calc(4% + 2px);
+    margin-bottom: 2px;
+    position: relative;
+    width: 96%;
+    background-color: #1f1f1f;
+    color: white;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    border-left: 1px solid rgb(49, 49, 49);
+    border-right: 1px solid rgb(49, 49, 49);
+}
+.edtrFoot:hover{ 
+    background-color: #54545079;
+}
+.IframeFooter {
+    width: 50%;
+}
+.teoryWrapper{ 
+    display: flex;
+    flex-direction: column;
+    height: calc(96vh - 3px);
+    margin-bottom: 2px;
+}
+.controlledPanel{ 
+    height: 88vh;
+    width: 40px;
+}
+.controlledContent{ 
+    height: 90%;
+    background-color: #141411;
+}
+.goNext_wrapper{ 
+    display: block;
+    height: 14vh;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    cursor: pointer;
+}
+.false{
+    background-color: #141411;
+}
+.true{ 
+    position: relative;
+    top: 8px;
+    background-color: #4eb543;
+    height:5vh;
+}
+.teoryBlock{ 
+    background-color: #141411;
+    user-select: none;
+    color: white;
+    width: 40px;
+    height: 90%;
+}
+.teoryBlock{ 
+    height:93%;
+    transition: 260ms;
+    cursor: pointer;
+    border: 1px solid rgb(49, 49, 49);
+}
+.teoryBlock >.conteiner{ 
+    height: 100%;
+    display:grid;
+    place-items: center;
+}
+.teoryBlock >.conteiner>span{
+    position: relative;
+    left: -10px;
+    transform: rotate(271deg);
+}
+.teoryBlock:hover{ 
+    background-color: #3b3b37;
+}
+.buttonZoom{ 
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.zoomValue{
+    margin: 20px;
+    transform: rotate(271deg);
+}
+.buttonZoom button{
+    background-color: unset;
+    border: 0px;
+    width: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: inherit;
+}
+.redactorConteiner{
+    width: 50%;
+    height: 89vh;
+}
+.conteiner__redactor{
+    height: 95%;
+    position: relative;
+}
+.inner__{
+    display: flex;
+    width: 80%;
+    height: 90%;
+}
+.codeViwe___conteiner{
+    height:80vh;
+    width: 50%;
+}
+.FrameFooter{
+    background-color:#141411;
+    height: calc(5% - 1px);
+    margin-bottom: 1px;
+}
+.codeViwe___conteiner>iframe{
+    background-color: white;
+    height: 95%;
+    width: 100%;
+    border: unset;
+}
+.redactor{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+.redactor:focus{ 
+   font-size: 60px;
+}
+.tabs{ 
+    display: flex;
+    color: white;
+    background-color: #141411;
+    height: 5%;
+    user-select: none;
+}
+.tabs>div{
+    cursor: pointer;
+    border-right: 1px solid rgb(49, 49, 49);
+    box-sizing: border-box;
+    padding-left: 10px;
+    width: 120px;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.iframeBlock{
+    height: 5%;
+    background-color: #141411;
+    color: rgba(128, 128, 128, 0.601);
+    border-left: 1px solid rgb(49, 49, 49);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.iframeTitle{
+    user-select: none; 
+    padding-left: 20px;
+    font-size: 1vh;
+}
+.reportForm{ 
+    display: block;
+    position: absolute;
+    background-color: #1e1e1b;
+    border: 1px solid rgb(49, 49, 49);
+    box-sizing: border-box;
+    width: 99%;
+    bottom: 2%;
+    right: 5vh;
+    height: 25vh;
+    top: 60vh;
+}
+.reportForm::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-width: 10px 8px 0;
+    border-style: solid;
+    border-color: #1e1e1b transparent;
+}
+.ReportContent{ 
+    font-size: 100%;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ReportContent > p{ 
+    color:  white;
+}
+.inputCheck{
+    margin-bottom: 15px;
+    display: flex;
+}
+.inputCheck>input{ 
+    background-color: transparent;
+}
+.formWrapper{
+    display: flex;
+    height: 100%;
+}
+.checkBoxArea{ 
+    width: 100%;
+    box-sizing: border-box;
+}
+.ButtonWrapper{ 
+    display: block;
+    height: 100%;
+}
+.ButtonWrapper > button{ 
+    background-color: transparent;
+    height: 100%;
+    display: block;
+}
+.inputWrapper{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+.backSelect{ 
+    border-left: 1px solid #0d1535;
+    cursor: pointer;
+    width: 80px;
+    height: 100%;
+}
+.back{ 
+    width: 65px;
+    border-left: 1px solid #0d1535;
+    height: 100%;
+}
+.back > a { 
+    padding-left:10px;
+}
+.forward{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+    border-right: 1px solid #0d1535;
+}
+.arrowBack {
+    transform: rotate(180deg);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selecte{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    border-right: 1px solid #0d1535;
+    border-left: 1px solid #0d1535;
+}
+.selecte:hover{ 
+    cursor: pointer;
+    background-color: hsl(240, 16%, 32%);
+}
+.modalWindow_select{ 
+    position: absolute;
+    width: 100%;
+    min-height: 50vh;
+    top: 60px;
+    background-color: hsl(240, 16%, 32%);
+    overflow: auto;
+    z-index: 8;
+}
+.wrapper_modal_selected{ 
+    width: 95%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+.wrapper_modal_selected>div{ 
+    min-height: 4vh;
+    width: 100%;
+    color: gray;
+}
+.questSlct{
+    display: grid;
+    align-items: center;
+    padding-left: 10px;
+}
+.questSlct>a{ 
+    color: rgba(255, 255, 255, 0.368);
+}
+.leaveLevelSelect{ 
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.qstDef{ 
+    display: grid;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+}
+.qstDef:hover{ 
+   color: rgba(255, 255, 255, 0.645);
+}
+.selectedQuest{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.questName{ 
+    width: 70%;
+    color: #9696a2;
+    font-size: 17px;
+    padding: 0 16px;
+    user-select: none;
+}
+.questNumb{ 
+    text-align: center;
+    font-size: 12px;
+    min-width: 40px;
+    width: fit-content;
+    padding: 0 6px;
+    font-size: 12px;
+    line-height: 18px;
+    max-height: 18px;
+    color: #9696a2;
+    border: 1px solid #9696a2;
+    border-radius: 3px;
+}
+.framePosition{ 
+    position: relative;
+    bottom: 2px;
+    height: 13vh;
+}
+.task_completed{ 
+    margin: 0;
+    padding: 0;
+}
+.task_title{ 
+    width: 70%;
+    padding: 10px;
+}
+.task_named::before{ 
+    content: " - ";
+    display: inline;
+}
+.all_task{ 
+    width: 15%;
+}
+@media(max-width:1200px){ 
+    .reportForm{ 
+        bottom: 1%;
+        right: 12%;
+        height: 25vh;
+        top: 61vh;
+    }
+    .ButtonWrapper > button{ 
+        height: 80px;
+    }
+    .inputWrapper{ 
+        font-size: 12px;
+    }
+    .ReportContent > p{ 
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-top: 8px;
+    }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+       YANKI
+    </h2>
+    <div class="container">
+        <div class="card">
+            <div class="card__img">
+                 <!-- <img class="image1" src="http://localhost:8080/image/fg/as5/1.png"> -->
+            </div>
+            <h3 class="card__title">Белая куртка</h3>
+            <span class="card__price"><b>2900 руб</b></span>
+            <span class="card__size">XXS XS S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img class="image2" src="">
+            </div>
+            <h3 class="card__title">Синее пальто</h3>
+            <span class="card__price"><b>3150 руб</b></span>
+            <span class="card__size">S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/3.png">
+            </div>
+            <h3 class="card__title">Бежевая шуба</h3>
+            <span class="card__price"><b>4200 руб</b></span>
+            <span class="card__size">XS S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/4.png">
+            </div>
+            <h3 class="card__title">Синяя парка</h3>
+            <span class="card__price"><b>3300 руб</b></span>
+            <span class="card__size">XXS S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/5.png">
+            </div>
+            <h3 class="card__title">Белая куртка</h3>
+            <span class="card__price"><b>2900 руб</b></span>
+            <span class="card__size">XXS XS S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/2.png">
+            </div>
+            <h3 class="card__title">Синее пальто</h3>
+            <span class="card__price"><b>3150 руб</b></span>
+            <span class="card__size">S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/1.png">
+            </div>
+            <h3 class="card__title">Бежевая шуба</h3>
+            <span class="card__price"><b>4200 руб</b></span>
+            <span class="card__size">XS S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/5.png">
+            </div>
+            <h3 class="card__title">Синяя парка</h3>
+            <span class="card__price"><b>3300 руб</b></span>
+            <span class="card__size">XXS S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/3.png">
+            </div>
+            <h3 class="card__title">Белая куртка</h3>
+            <span class="card__price"><b>2900 руб</b></span>
+            <span class="card__size">XXS XS S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/5.png">
+            </div>
+            <h3 class="card__title">Синее пальто</h3>
+            <span class="card__price"><b>3150 руб</b></span>
+            <span class="card__size">S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg">
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/2.png">
+            </div>
+            <h3 class="card__title">Бежевая шуба</h3>
+            <span class="card__price"><b>4200 руб</b></span>
+            <span class="card__size">XS S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+        <div class="card">
+            <div class="card__img">
+                <img src="http://localhost:8080/image/fg/as5/5.png">
+            </div>
+            <h3 class="card__title">Синяя парка</h3>
+            <span class="card__price"><b>3300 руб</b></span>
+            <span class="card__size">XXS S M L</span>
+            <span class="card__like">
+                <img src="http://localhost:8080/image/fg/as5/like.svg"
+            </span>
+        </div>
+    </div>
+    <button class="btn hidden" type="button">
+        Показать еще
+    </button>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
